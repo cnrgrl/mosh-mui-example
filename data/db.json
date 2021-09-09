@@ -1,0 +1,8 @@
+{ 
+    "counters":[
+    {"id": 1, "value": 800},
+    {"id": 2, "value":900 },
+    {"id": 3, "value":0},
+    {"id": 6, "value":700}
+] 
+}

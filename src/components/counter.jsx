@@ -3,8 +3,6 @@ import Button from '@material-ui/core/Button';
 import DeleteIcon from '@material-ui/icons/Delete';
 
 
-
-
 const Counter=(props)=>{
  
 
@@ -27,7 +25,7 @@ const Counter=(props)=>{
 
             <span className={getBadgeClasses()}> {formatCount()}</span>
             <Button variant="outlined" 
-            color="primary" 
+            color="primary"  
             onClick={()=>props.onIncrement(props.counter.id)}>
                 Increment
             </Button>

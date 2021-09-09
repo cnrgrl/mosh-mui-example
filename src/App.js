@@ -5,6 +5,7 @@ import Counters from './components/counters';
 import './components/navbar'
 import Navbar from './components/navbar';
 import React,{useState} from 'react';
+import Footer from './components/footer';
 
 
 const  App=(props)=> {
@@ -56,6 +57,7 @@ const  App=(props)=> {
             <Navbar 
                  totalIncrement={counters.filter(c=> c.value>0).length}
             />
+           
             <Counters 
                
                 onIncrement={handleIncrement}
@@ -65,7 +67,7 @@ const  App=(props)=> {
          
             />
                 
-
+                <Footer />
       </div> );
  
 }
